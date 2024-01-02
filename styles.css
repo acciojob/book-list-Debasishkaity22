@@ -1,1 +1,36 @@
 /*  your css code here. If applicable */
+h1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ h1>span{
+  display: inline-block;
+  color:blue;
+ }
+ #submit{
+  background-color: blue;
+  color: white;
+ }
+ form{
+  width: 100%;
+ }
+ .form-group,.table-striped{
+  width: 100%;
+  margin-bottom: 20px;
+ }
+ #submit{
+  margin: 10px;
+ }
+ .form-group>input{
+  width: 100%;
+ }
+ .delete{
+  width:20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  color: white;
+ }
