@@ -3,7 +3,7 @@ let form = document.querySelector("form");
 let tableBody = document.querySelector("#book-list")
 form.addEventListener("click", function (e) {
     e.preventDefault();
-    let title = document.querySelector("#tittle").value;
+    let title = document.querySelector("#title").value;
     let author = document.querySelector("#author").value;
     let isbn = document.querySelector("#isbn").value;
     if (title && author && isbn) {
