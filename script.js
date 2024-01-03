@@ -12,7 +12,7 @@ form.addEventListener("click", function (e) {
 		<td>${title}</td>
         <td>${author}</td>
         <td>${isbn}</td>
-        <td class="delete" onclick="deleteRow(this)">X</td>
+        <td> <button class="delete" onclick="deleteRow(this)">X</button></td>
       `;
         tableBody.appendChild(newRow);
         form.reset();
@@ -20,6 +20,6 @@ form.addEventListener("click", function (e) {
 
 });
 function deleteRow(row){
-  let rowDel=row.parentNode.parentNode.rowIndex;
+  let rowDel=row.parentNode.parentNode.parentNode.rowIndex;
   tableBody.deleteRow(rowDel);
 }
